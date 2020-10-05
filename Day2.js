@@ -23,7 +23,7 @@ var x = 12;
 Create a variable named name containing the string John Doe
 */
 
-var name = ("John Doe");
+var name = "John Doe";
 console.log(name);
 
 /* EXERCISE 4
@@ -39,7 +39,11 @@ Verify that name1 is different from name2.
 Verify then, that name1 and name2 are equals if both lowercase (without changing the value of name2)
 */
 
-/* WRITE YOUR CODE HERE */
+var name1 = "john";
+var name2 = "John";
+
+console.log(name1 != name2);
+console.log(name1 === name2.toLowerCase());
 
 /* EXERCISE 6
 Create the variable X (value less than 10). Write the code to print the literal value of the given number (ex.: 1 => one, 5 => five)
